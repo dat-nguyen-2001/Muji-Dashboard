@@ -12,7 +12,8 @@ const queryClient = new QueryClient();
 root.render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
-      <App /></QueryClientProvider>
+      <App />
+    </QueryClientProvider>
   </React.StrictMode>
 );
 reportWebVitals();
