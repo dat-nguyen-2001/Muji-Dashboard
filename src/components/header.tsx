@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './button';
-import { HeaderIcons, MUJI_LOGO } from '../shared/images';
+import { HeaderIcons, MUJI_LOGO } from '../shared/images.enum';
 
 const Header: React.FC = () => {
     return (
