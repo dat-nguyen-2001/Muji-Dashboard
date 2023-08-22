@@ -7,7 +7,7 @@ interface ButtonProps {
 const Button = (props: ButtonProps) => {
     const { url, content } = props;
     return (
-        <button className={`px-4 hover:bg-[#e8e8e8] ${content ? "w-[92px]" : "w-16"} text-xs flex flex-col items-center justify-center`}>
+        <button className={`hover:bg-[#e8e8e8] ${content ? "w-16" : "w-16"} text-xs flex flex-col items-center justify-center`}>
             {url && <img alt='' src={url} />}
             {content && <p>{content}</p>}
         </button>
