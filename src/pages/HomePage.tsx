@@ -1,6 +1,6 @@
 import Banner from "../components/banner";
 import Header from "../components/header";
-import Slider from "../components/slider";
+import Carousel from "../components/slider";
 
 function HomePage() {
     return (
@@ -8,7 +8,7 @@ function HomePage() {
             <Header />
             <div className="mt-10">
                 <Banner />
-                <Slider />
+                <Carousel />
             </div>
         </>
     );
