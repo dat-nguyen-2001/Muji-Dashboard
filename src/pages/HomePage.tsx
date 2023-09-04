@@ -1,6 +1,6 @@
 import Banner from "../components/banner";
 import Header from "../components/header";
-import Carousel from "../components/slider";
+import Carousel from "../components/carousel";
 
 function HomePage() {
     return (
